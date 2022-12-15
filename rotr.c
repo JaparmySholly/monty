@@ -17,7 +17,7 @@ copy = *head;
 if (*head == NULL || (*head)->next == NULL)
 {
 return;
-
+}
 while (copy->next)
 {
 copy = copy->next;

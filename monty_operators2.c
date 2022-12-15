@@ -20,7 +20,7 @@ m++;
 for (; bus.arg[m] != '\0'; m++)
 {
 if (bus.arg[m] > 57 || bus.arg[m] < 48)
-lag = 1;
+flag = 1;
 }
 
 if (flag == 1)
